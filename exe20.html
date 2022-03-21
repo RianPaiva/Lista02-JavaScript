@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Poligonos Regulares</title>
+	<script type="text/javascript">
+		var lado = parseInt(prompt("Informe a quantidade de lados: "));
+		var tamanho = parseInt(prompt("Informe o tamanho do lado: "));
+		var peri = 0;
+
+		if (lado == 3) {
+
+			peri = lado * tamanho;
+			alert("Triângulo, perimetro: " + peri);
+
+		} else {
+
+			if (lado == 4) {
+
+				peri = lado * tamanho;
+				alert("Quadrado, perimetro: " + peri);
+
+			} else {
+
+				if (lado == 5) {
+
+					peri = lado * tamanho;
+					alert("Pentágono, perimetro: " + peri);
+
+				} else {
+
+					if (lado < 3) {
+
+						alert("NÃO É UM POLÍGONO.");
+
+					} else {
+
+						alert("POLÍGONO NÃO IDENTIFICADO.");
+
+					}
+
+				}
+			}
+		}
+
+		
+	</script>
+</head>
+<body>
+
+</body>
+</html>

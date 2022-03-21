@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Vou de Taxi</title>
+
+	<script type="text/javascript">
+		
+		alert('Calculadora do Taxista');
+
+		var odoInicial = parseInt(prompt("Informe o odometro inicial"));
+		var odoFinal = parseInt(prompt("Informe o odometro final"));
+		var gastoComb = parseInt(prompt("Informe o gasto de combustivel (L)"));
+		var valor = parseInt(prompt("Informe o Total recebido(R$)"));
+
+
+		var mediaConsum = (odoFinal - odoInicial) / gastoComb;
+
+		var saldo = valor - (gastoComb * 2.90);
+
+		alert("Consumo médio de combustivel é: " + mediaConsum + " O balanço é: R$ " + saldo );
+
+
+
+	</script>
+
+
+</head>
+<body>
+
+
+
+</body>
+</html>

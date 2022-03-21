@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>O Triunfo dos nerds</title>
+
+	<script type="text/javascript">
+		
+		var tamanhoPista = parseInt(prompt("Informe o tamanho da pista (em metros)"));
+		var voltas = parseInt(prompt("Informe o numero de voltas"));
+		var numReabastecimento = parseInt(prompt("Quantos reabastecimentos deseja fazer"));
+		var consumoCarro = parseInt(prompt("Qual o consumo do carro (km/l)"));
+
+		//quantidade de voltas até a parada 1
+		var voltasParada1 = voltas/numReabastecimento;
+
+
+		//distancia parada 1 
+		var distanciaParada1= (voltasParada1 * tamanhoPista) / 1000;
+
+		//consumo ate a parada 1
+		var consumoParada1 = consumoCarro / distanciaParada1;
+
+		alert("a distancia percorrida até a primeira parada é: " + distanciaParada1);
+
+		alert("O numero de voltas até a primeira parada é: " + voltasParada1);
+
+		alert("O carro vai gastar " + consumoParada1 + " até a parada 1");
+
+
+
+	</script>
+
+
+</head>
+<body>
+
+</body>
+</html>

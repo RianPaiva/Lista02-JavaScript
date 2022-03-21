@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Média do Semestre</title>
+
+	<script type="text/javascript">
+		
+		var soma = 0.0;
+
+		for (var i = 0; i < 4; i++) {
+			
+			soma += parseFloat(prompt("informe a " + (i+1)+ "º nota"));
+
+		}
+
+		var media = soma /4;
+
+		if (media >= 6) {
+
+			alert("PARABÉNS! Você foi aprovado!");
+
+		}else{
+
+			alert("Infelizmente, você foi reprovado!");
+		}
+
+
+
+
+	</script>
+
+</head>
+<body>
+
+</body>
+</html>

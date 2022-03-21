@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Soma dos Maiores</title>
+
+	<script type="text/javascript">
+		
+		
+		alert("Informe 3 Números para somar os maiores")
+		var n1 = parseInt(prompt("O primeiro"));
+		var n2 = parseInt(prompt("O segundo"));
+		var n3 = parseInt(prompt("O terceiro"));
+		var soma = 0;
+
+		if (n1 > n2 && n1 > n3) {
+
+			soma += n1;
+			if (n2 > n3) {
+
+				soma += n2;
+
+			} else {
+
+				soma += n3;
+			}
+
+		} else {
+
+			if (n2 > n1 && n2 > n3) {
+
+				soma += n2;
+				if (n1 > n3) {
+
+				soma += n1;
+
+			} else {
+
+				soma += n3;
+			}
+
+
+			} else {
+
+				soma += n3;
+				if (n1 > n2) {
+
+				soma += n1;
+
+			} else {
+
+				soma += n2;
+			}
+
+
+			}
+		}
+
+		alert(soma);
+
+	</script>
+</head>
+<body>
+
+</body>
+</html>

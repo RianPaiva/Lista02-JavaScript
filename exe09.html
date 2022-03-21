@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>O Triunfo dos nerds</title>
+
+	<script type="text/javascript">
+		
+		
+		alert("Informe 6 números");
+
+		var soma = 0;
+		var numerosDigitados = [];
+		var numero=0;
+
+
+		for (var i = 0; i < 6; i++) {
+			numero = parseInt(prompt("Escreva um numero"));
+			if (numero < 72) {
+
+				soma += numero;
+				numerosDigitados[i] = numero;
+
+			}else{
+
+				numerosDigitados[i] = numero;
+			}
+		}
+
+		alert("soma = " + soma);
+		alert(numerosDigitados);
+
+
+	</script>
+
+
+</head>
+<body>
+
+</body>
+</html>

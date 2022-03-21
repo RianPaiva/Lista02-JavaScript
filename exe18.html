@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Peso Ideal</title>
+	<script type="text/javascript">
+		
+		alert("Informe os dados para saber o peso ideal");
+		var altura = parseFloat(prompt("Altura: "));
+		var sexo = prompt("Sexo(m/f): ");
+
+		if(sexo == "m"){
+
+			var ideal = (72.7 * altura) - 58;
+			alert("Peso ideal: " + ideal);
+
+		}else{
+
+			if (sexo == "f") {
+
+				var ideal = (62.1 * altura) - 44.7;
+				alert("Peso ideal: " + ideal);
+
+			}else{
+
+				alert("Escolha somente (m) ou (f) ");
+			}
+		}
+
+
+	</script>
+</head>
+<body>
+
+</body>
+</html>

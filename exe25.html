@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Calculadora</title>
+
+	<script type="text/javascript">
+		var n1 = parseInt(prompt("Informe o primeiro valor: "));
+		var n2 = parseInt(prompt("Informe o segundo valor: "));
+
+		var res = 0;
+
+		var opc = parseInt(prompt(" 1.Adição, 2.Subtração, 3.Divisão, 4.Multiplicação"));
+
+		switch(opc){
+
+			case 1:
+
+				res = n1 + n2;
+				alert(res);
+
+			break;
+			case 2:
+
+				res = n1 - n2;
+				alert(res);
+
+			break;
+			case 3:
+			
+				res = n1 / n2;
+				alert(res);
+
+			break;
+			case 4:
+			
+				res = n1 * n2;
+				alert(res);
+
+			break;
+
+			default:
+
+				alert("Erro");
+
+
+
+			}
+
+	</script>
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Teste</title>
+
+	<script type="text/javascript">
+		
+		alert('VOCÊ ESTÁ EM UM TESTE');
+
+		var media = 0;
+		var soma = 0;
+
+		for (var i = 0; i < 4; i++) {
+
+			var recebe = parseInt(prompt("Informe o " + (i+1) + "º número"));
+
+			if(recebe > 0 && recebe < 10){
+
+				soma += recebe;
+
+			}
+
+		
+		}
+
+		media = soma /4;
+
+		if (media > 5) {
+
+			alert("Você passou no teste");
+		}else{
+
+			alert("Tente Novamente");
+
+		}
+
+
+	</script>
+
+</head>
+<body>
+
+</body>
+</html>
